@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T05:49:04.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.6.9" etag="B0u1JmoUQPIO8aAyCTpq" type="github"><diagram id="kd0LV1P4p0iaW5E6W-HM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-10T06:41:59.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="dX_cTyzT9-Bn_hbFZOuB" version="13.6.9" type="github">
+  <diagram id="kd0LV1P4p0iaW5E6W-HM" name="Page-1">
+    <mxGraphModel dx="1079" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FKu2YoO26k-1FarEYYa4-2" value="1.Commit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-1" target="FKu2YoO26k-1FarEYYa4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-1" value="新增任务流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-6" value="4.Job to Task&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;TaskMetaInfo&lt;/li&gt;&lt;li&gt;JobTaskInfo&lt;/li&gt;&lt;/ul&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-3" target="FKu2YoO26k-1FarEYYa4-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="170" />
+              <mxPoint x="760" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-3" target="FKu2YoO26k-1FarEYYa4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-3" target="FKu2YoO26k-1FarEYYa4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-3" value="Job Commiter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-5" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-9" value="3.push to db&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;JobMetaInfo&lt;/li&gt;&lt;li&gt;JobMetaInfoHistory&lt;/li&gt;&lt;/ul&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-10" target="FKu2YoO26k-1FarEYYa4-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="70" as="targetPoint" />
+            <mxPoint x="390" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-10" value="2. Convert" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-19" value="6.push executor status&lt;br&gt;&lt;ul&gt;&lt;li&gt;TaskExecutor&lt;/li&gt;&lt;li&gt;JobTaskInfo&lt;/li&gt;&lt;/ul&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-13" target="FKu2YoO26k-1FarEYYa4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-21" value="5. start executor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-13" target="FKu2YoO26k-1FarEYYa4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-13" value="Task Executor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-20" value="Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-24" value="Executor Checker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="520" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-26" value="Poll Executors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-25" target="FKu2YoO26k-1FarEYYa4-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-25" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="490" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-30" value="Check Executor Status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-27" target="FKu2YoO26k-1FarEYYa4-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-27" value="Task Executor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-31" value="Update Status&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;TaskExecutor&lt;/li&gt;&lt;li&gt;JobTaskInfo&lt;/li&gt;&lt;/ul&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-29" target="FKu2YoO26k-1FarEYYa4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-29" value="Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-34" value="Poll&amp;nbsp; offlline Executor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-35" target="FKu2YoO26k-1FarEYYa4-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-37" value="Restart&amp;nbsp; Executor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-32" target="FKu2YoO26k-1FarEYYa4-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-32" value="Task Executor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-33" value="Executor Restarter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-35" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="660" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-39" value="Update Status&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Task Executor&lt;/li&gt;&lt;li&gt;JobTaskInfo&lt;/li&gt;&lt;/ul&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-38" target="FKu2YoO26k-1FarEYYa4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKu2YoO26k-1FarEYYa4-38" value="Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

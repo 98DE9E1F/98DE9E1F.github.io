@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T10:00:45.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="KBe6VUuLZ6E2zdedtYlT" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T02:40:47.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Vk3CNxvzX4buY7kpEbTq" version="13.6.9" type="github">
   <diagram id="kd0LV1P4p0iaW5E6W-HM" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-24" value="执行状态检查" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="840" width="90" height="20" as="geometry" />
+          <mxGeometry x="40" y="840" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-26" value="Poll Executors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-25" target="FKu2YoO26k-1FarEYYa4-27">
           <mxGeometry relative="1" as="geometry">
@@ -61,7 +61,7 @@
           <mxGeometry x="200" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-33" value="Executor Restarter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1010" width="120" height="20" as="geometry" />
+          <mxGeometry x="40" y="1010" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-35" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="980" width="60" height="80" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry x="420" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-42" value="监听Codis group 变更信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="630" width="160" height="20" as="geometry" />
+          <mxGeometry x="40" y="630" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-43" value="1. 拉取Job" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.3;exitDx=0;exitDy=0;" edge="1" parent="1" source="FKu2YoO26k-1FarEYYa4-47">
           <mxGeometry relative="1" as="geometry">
@@ -109,7 +109,7 @@
           <mxGeometry x="180" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-49" value="启动、停止" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="180" width="80" height="20" as="geometry" />
+          <mxGeometry x="40" y="180" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FKu2YoO26k-1FarEYYa4-50" value="1.Commit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FKu2YoO26k-1FarEYYa4-52">
           <mxGeometry relative="1" as="geometry">
